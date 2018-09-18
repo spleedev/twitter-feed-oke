@@ -23,4 +23,4 @@ push-release:
         tag: $WERCKER_GIT_COMMIT
         working-dir: /pipeline/source
         ports: $PORT
-        cmd: sh target/bin/start        
+        cmd: sh target/bin/start
